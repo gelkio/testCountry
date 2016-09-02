@@ -20,7 +20,6 @@ Tener instalados nodejs y couchdb, descargar los archivos de este repositorio de
   2.2 En el menú *View* seleccionar *Temporary View...*
   
   2.3 En el campo de texto *Map function* pegar el siguiente codigo:
-  
 `function(doc) {
   for(index in doc.occurrences){
     emit([doc.name, doc.occurrences[index].country], 1);
@@ -28,7 +27,6 @@ Tener instalados nodejs y couchdb, descargar los archivos de este repositorio de
 }`
 
   2.4 En el campo de texto *Reduce function* pegar el siguiente codigo:
-  
 `function(keys, values, rereduce) {
   return sum(values)
 }`
