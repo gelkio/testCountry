@@ -4,7 +4,7 @@ var nano = require('nano')('http://localhost:5984');
 var ocurrence_db = nano.db.use('occurrence_db');
 
 const server = http.createServer((req,res) => {
-    
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Content-Type', 'text/json');
     res.setHeader('X-Foo', 'bar');
     res.writeHead(200, {'Content-Type': 'text/plain'});

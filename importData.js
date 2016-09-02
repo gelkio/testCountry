@@ -24,15 +24,19 @@ function guid() {
 
 /*
 * Recursive function that gets the occurrences for the first element of the array species
-* @Param array species
+* @Param array species Array with the names of the species to process
+* @Param int index Index of the currently specie in process 
+* @Param int page Page of the ocurrences retrived
 */
-function getOccurrences(species){
-    if(species.length > 0){
-        var currentSpecie = species[0];
+function getOccurrences(species, index, page){
+    if(species.length >= index ){
+        var currentSpecie = species[index];
+        var offset = page*30;
         var options = {
             host: 'api.gbif.org',
-            path: '/v1/occurrence/search?limit=300&q='+encodeURIComponent(currentSpecie.name)
+            path: '/v1/occurrence/search?offset='+offset+'&limit=30&q='+encodeURIComponent(currentSpecie.name)
         };
+        console.log("url: ", options.path);
         http.request(options, function(response){
             var content = '';
             response.on('data', function(chunk){
@@ -41,17 +45,20 @@ function getOccurrences(species){
             response.on('end', function(){
                 var contentObject = JSON.parse(content);
                 
-                currentSpecie.occurrences = contentObject.results;
-                
-                ocurrence_db.insert(currentSpecie, guid(), function(error, body){
-                    if(error){
-                        console.log("Can't insert specie: ", currentSpecie, error);
-                    }else{
-                        console.log("Specie inserted: ", currentSpecie);
-                    }
-                });
-                species.splice(0,1); //removes first element because was already processed
-                getOccurrences(species);
+                currentSpecie.occurrences = currentSpecie.occurrences.concat(contentObject.results);
+
+                if(contentObject.endOfRecords){
+                    ocurrence_db.insert(currentSpecie, guid(), function(error, body){
+                        if(error){
+                            console.log("Can't insert specie: ", currentSpecie.name, error);
+                        }else{
+                            console.log("Specie inserted: ", currentSpecie.name);
+                        }
+                    });
+                    getOccurrences(species, index+1, 0);
+                }else{                 
+                    getOccurrences(species, index, page+1);
+                }
             });
         }).end();
     }else{
@@ -65,7 +72,7 @@ var lineReader = require('readline').createInterface({
   input: require('fs').createReadStream('taxon.csv')
 });
 
-var skip = true;
+var skip = false;
 var species = [];
 lineReader.on('line', function (line) {
   if(!skip){ //skip first line
@@ -81,12 +88,13 @@ lineReader.on('line', function (line) {
                     "specific":record[8],
                     "range":record[9],
                     "author":record[10],
-                    "comunName":record[11]};
+                    "comunName":record[11],
+                    "occurrences": [] };
       console.log('Scientific name:', record[1]);  
       species.push(specie);
   }
   skip = false;
 }).on('close', function(){
     console.log("species size:", species.length, species);
-    getOccurrences(species);
+    getOccurrences(species, 0, 0);
 });

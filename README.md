@@ -36,3 +36,12 @@ Tener instalados nodejs y couchdb, descargar los archivos de este repositorio de
 3. Iniciar el servidor ejecutando el archivo startServer.js usando nodejs **:>node startServer.js**
 
 4. Abrir el archivo testByCountry.html
+
+## Run HTML in a server
+*Ejecutar en otra terminal*
+
+1. install http-server with node js **:>npm install http-server -g**
+
+2. Iniciar el servidor http-server **:>http-server ./**
+
+3. Desde el navegador acceder a la URL **http://localhost:8080/testByCountry.html**
