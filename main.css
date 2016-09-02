@@ -1,0 +1,9 @@
+body{
+    color: #333;
+}
+
+.count{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: right;
+}

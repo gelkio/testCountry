@@ -1,0 +1,50 @@
+id,nombreCientifico,kingdom,phylum,clase,orden,family,genus,specificEpithet,rango,autor,nombreComun
+urn:lsid:catalogueoflife.org:taxon:effaf81a-29c1-102b-9a4a-00304854f820:col20120124,Aburria aburri,Animalia,Chordata,Aves,Galliformes,Cracidae,Aburria,aburri,Especie,"(Lesson, 1828)",Pava Aburria
+urn:lsid:ubio.org:namebank:3854676,Aburria cumanensis,Animalia,Chordata,Aves,Galliformes,Cracidae,Aburria,cumanensis,Especie,"(Jacquin, 1784)",Pava Goliazul
+urn:lsid:catalogueoflife.org:taxon:d1cf7cf9-2dc5-11e0-98c6-2ce70255a436:col20120124,Accipiter bicolor,Animalia,Chordata,Aves,Ciconiiformes,Accipitridae,Accipiter,bicolor,Especie,"(Vieillot, 1817)",
+urn:lsid:catalogueoflife.org:taxon:eff0b472-29c1-102b-9a4a-00304854f820:col20120124,Accipiter collaris,Animalia,Chordata,Aves,Ciconiiformes,Accipitridae,Accipiter,collaris,Especie,"Sclater, 1860",Gavilancito Torcaz
+urn:lsid:catalogueoflife.org:taxon:d1cf784a-2dc5-11e0-98c6-2ce70255a436:col20120124,Accipiter cooperii,Animalia,Chordata,Aves,Ciconiiformes,Accipitridae,Accipiter,cooperii,Especie,"(Bonaparte, 1828)",
+urn:lsid:catalogueoflife.org:taxon:eff2ba10-29c1-102b-9a4a-00304854f820:col20120124,Accipiter poliogaster,Animalia,Chordata,Aves,Ciconiiformes,Accipitridae,Accipiter,poliogaster,Especie,"(Temminck, 1824)",Azor Ventrigrís
+urn:lsid:catalogueoflife.org:taxon:d1cf7612-2dc5-11e0-98c6-2ce70255a436:col20120124,Accipiter striatus,Animalia,Chordata,Aves,Ciconiiformes,Accipitridae,Accipiter,striatus,Especie,"Vieillot, 1808",
+urn:lsid:catalogueoflife.org:taxon:eff2bff6-29c1-102b-9a4a-00304854f820:col20120124,Accipiter superciliosus,Animalia,Chordata,Aves,Ciconiiformes,Accipitridae,Accipiter,superciliosus,Especie,"(Linnaeus, 1766)",
+urn:lsid:catalogueoflife.org:taxon:eff4ef56-29c1-102b-9a4a-00304854f820:col20120124,Adelomyia melanogenys,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Adelomyia,melanogenys,Especie,"(Fraser, 1840)",
+urn:lsid:catalogueoflife.org:taxon:f33d2778-29c1-102b-9a4a-00304854f820:col20120124,Aegolius harrisii,Animalia,Chordata,Aves,Strigiformes,Strigidae,Aegolius,harrisii,Especie,"(Cassin, 1849)",
+urn:lsid:organismnames.com:name:4438407,Agalychnis danieli,Animalia,Chordata,Amphibia,Anura,Hylidae,Agalychnis,danieli,Especie,"(Ruíz-Carranza, Hernandez-Camacho and Rueda-Almonacid, 1988)",
+urn:lsid:organismnames.com:name:4438410,Agalychnis lemur,Animalia,Chordata,Amphibia,Anura,Hylidae,Agalychnis,lemur,Especie,"(Boulenger, 1882)",
+urn:lsid:organismnames.com:name:5105429,Agalychnis terranova,Animalia,Chordata,Amphibia,Anura,Hylidae,Agalychnis,terranova,Especie,"Rivera, Duarte, Rueda & Daza, 2013",
+urn:lsid:catalogueoflife.org:taxon:d1ce9546-2dc5-11e0-98c6-2ce70255a436:col20120124,Agamia agami,Animalia,Chordata,Aves,Ciconiiformes,Ardeidae,Agamia,agami,Especie,"(J. F. Gmelin, 1789)",Garza Agamí
+urn:lsid:catalogueoflife.org:taxon:eff50e1e-29c1-102b-9a4a-00304854f820:col20120124,Aglaeactis cupripennis,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Aglaeactis,cupripennis,Especie,"(Bourcier, 1843)",
+urn:lsid:catalogueoflife.org:taxon:eca8b828-29c1-102b-9a4a-00304854f820:col20120124,Aglaiocercus coelestis,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Aglaiocercus,coelestis,Especie,"(Gould, 1861)",
+urn:lsid:catalogueoflife.org:taxon:f34786a0-29c1-102b-9a4a-00304854f820:col20120124,Akodon affinis,Animalia,Chordata,Mammalia,Rodentia,Muridae,Akodon,affinis,Especie,"(J.A. Allen, 1912)*",
+urn:lsid:catalogueoflife.org:taxon:25559fba-60a7-102d-be47-00304854f810:col20120124,Allobates cepedai,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,cepedai,Especie,"(Morales, 2002 2000)",
+urn:lsid:organismnames.com:name:4905144,Allobates ignotus,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,ignotus,Especie,"(Anganoy, 2012)",
+urn:lsid:catalogueoflife.org:taxon:2555c026-60a7-102d-be47-00304854f810:col20120124,Allobates juanii,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,juanii,Especie,"(Morales, 1994)",
+urn:lsid:catalogueoflife.org:taxon:2555dd04-60a7-102d-be47-00304854f810:col20120124,Allobates niputidea,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,niputidea,Especie,"Grant, Acosta & Rada, 2007",
+urn:lsid:organismnames.com:name:4405902,Allobates paleovarzensis,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,paleovarzensis,Especie,"Lima, Caldwell, Biavati & Montanarin, 2010",
+urn:lsid:catalogueoflife.org:taxon:d25a446f-2dc5-11e0-98c6-2ce70255a436:col20120124,Allobates picachos,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,picachos,Especie,"(Ardila-Robayo, Acosta-Galvis & Coloma, 2000)",
+urn:lsid:catalogueoflife.org:taxon:2555ea74-60a7-102d-be47-00304854f810:col20120124,Allobates ranoides,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,ranoides,Especie,"(Boulenger, 1918)",
+urn:lsid:catalogueoflife.org:taxon:255606bc-60a7-102d-be47-00304854f810:col20120124,Allobates wayuu,Animalia,Chordata,Amphibia,Anura,Aromobatidae,Allobates,wayuu,Especie,"(Acosta, Cuentas & Coloma, 1999)",
+urn:lsid:catalogueoflife.org:taxon:ea013406-29c1-102b-9a4a-00304854f820:col20120124,Alopoglossus angulatus,Animalia,Chordata,Reptilia,Squamata,Gymnophthalmidae,Alopoglossus,angulatus,Especie,"(Linnaeus, 1758)",
+urn:lsid:catalogueoflife.org:taxon:ea012b6e-29c1-102b-9a4a-00304854f820:col20120124,Alopoglossus lehmanni,Animalia,Chordata,Reptilia,Squamata,Gymnophthalmidae,Alopoglossus,lehmanni,Especie,"Ayala & Harris, 1984",
+urn:lsid:catalogueoflife.org:taxon:d240dd1a-2dc5-11e0-98c6-2ce70255a436:col20120124,Alouatta palliata,Animalia,Chordata,Mammalia,Primates,Atelidae,Alouatta,palliata,Especie,"(Gray, 1849)",
+urn:lsid:catalogueoflife.org:taxon:d240e2bd-2dc5-11e0-98c6-2ce70255a436:col20120124,Alouatta seniculus,Animalia,Chordata,Mammalia,Primates,Atelidae,Alouatta,seniculus,Especie,"Linnaeus, 1766",
+urn:lsid:catalogueoflife.org:taxon:ea01065c-29c1-102b-9a4a-00304854f820:col20120124,Amastridium veliferum,Animalia,Chordata,Reptilia,Squamata,Colubridae,Amastridium,veliferum,Especie,"Cope, 1860",
+urn:lsid:catalogueoflife.org:taxon:eff43e76-29c1-102b-9a4a-00304854f820:col20120124,Amazilia castaneiventris,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,castaneiventris,Especie,"(Gould, 1856)",Amazilia Ventricastaña
+urn:lsid:catalogueoflife.org:taxon:eff4366a-29c1-102b-9a4a-00304854f820:col20120124,Amazilia cyanifrons,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,cyanifrons,Especie,"(Bourcier, 1843)",Amazilia Capiazul
+urn:lsid:catalogueoflife.org:taxon:eff42bfc-29c1-102b-9a4a-00304854f820:col20120124,Amazilia fimbriata,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,fimbriata,Especie,"(Gmelin, 1788)",
+urn:lsid:catalogueoflife.org:taxon:eff432f0-29c1-102b-9a4a-00304854f820:col20120124,Amazilia franciae,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,franciae,Especie,"(Bourcier & Mulsant, 1846)",
+urn:lsid:catalogueoflife.org:taxon:eff430a2-29c1-102b-9a4a-00304854f820:col20120124,Amazilia rosenbergi,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,rosenbergi,Especie,"(Boucard, 1895)",
+urn:lsid:catalogueoflife.org:taxon:eff438b8-29c1-102b-9a4a-00304854f820:col20120124,Amazilia saucerrottei,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,saucerrottei,Especie,"(Delattre & Bourcier, 1846)",
+urn:lsid:catalogueoflife.org:taxon:d1d3f8a5-2dc5-11e0-98c6-2ce70255a436:col20120124,Amazilia tzacatl,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,tzacatl,Especie,"(De la Llave, 1833)",
+urn:lsid:catalogueoflife.org:taxon:eff4295e-29c1-102b-9a4a-00304854f820:col20120124,Amazilia versicolor,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,versicolor,Especie,"(Vieillot, 1818)",
+urn:lsid:catalogueoflife.org:taxon:eff43b06-29c1-102b-9a4a-00304854f820:col20120124,Amazilia viridigaster,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Amazilia,viridigaster,Especie,"(Bourcier, 1843)",
+urn:lsid:catalogueoflife.org:taxon:f33be516-29c1-102b-9a4a-00304854f820:col20120124,Amazona amazonica,Animalia,Chordata,Aves,Psittaciformes,Psittacidae,Amazona,amazonica,Especie,"(Linnaeus, 1766)",
+urn:lsid:catalogueoflife.org:taxon:d1d35143-2dc5-11e0-98c6-2ce70255a436:col20120124,Amazona autumnalis,Animalia,Chordata,Aves,Psittaciformes,Psittacidae,Amazona,autumnalis,Especie,"(Linnaeus, 1758)",
+urn:lsid:catalogueoflife.org:taxon:d1d357c1-2dc5-11e0-98c6-2ce70255a436:col20120124,Amazona farinosa,Animalia,Chordata,Aves,Psittaciformes,Psittacidae,Amazona,farinosa,Especie,"(Boddaert, 1783)",
+urn:lsid:catalogueoflife.org:taxon:f33bf18c-29c1-102b-9a4a-00304854f820:col20120124,Amazona festiva,Animalia,Chordata,Aves,Psittaciformes,Psittacidae,Amazona,festiva,Especie,"(Linnaeus, 1758)",Amazona Festiva
+urn:lsid:organismnames.com:name:4501534,Amazona mercenarius,Animalia,Chordata,Aves,Psittaciformes,Psittacidae,Amazona,mercenarius,Especie,"(Tschudi, 1844)",
+urn:lsid:catalogueoflife.org:taxon:d1d35e58-2dc5-11e0-98c6-2ce70255a436:col20120124,Amazona ochrocephala,Animalia,Chordata,Aves,Psittaciformes,Psittacidae,Amazona,ochrocephala,Especie,"(Gmelin, 1788)",
+urn:lsid:catalogueoflife.org:taxon:255c52a6-60a7-102d-be47-00304854f810:col20120124,Ameerega ingeri,Animalia,Chordata,Amphibia,Anura,Dendrobatidae,Ameerega,ingeri,Especie,"(Cochran and Goin, 1970)",
+urn:lsid:catalogueoflife.org:taxon:f01bf27c-29c1-102b-9a4a-00304854f820:col20120124,Amphisbaena alba,Animalia,Chordata,Reptilia,Squamata,Amphisbaenidae,Amphisbaena,alba,Especie,"Linnaeus, 1758",
+urn:lsid:catalogueoflife.org:taxon:f01bb0dc-29c1-102b-9a4a-00304854f820:col20120124,Amphisbaena medemi,Animalia,Chordata,Reptilia,Squamata,Amphisbaenidae,Amphisbaena,medemi,Especie,"Gans & Mathers, 1977",
+urn:lsid:catalogueoflife.org:taxon:ea00cfc0-29c1-102b-9a4a-00304854f820:col20120124,Anadia altaserrania,Animalia,Chordata,Reptilia,Squamata,Gymnophthalmidae,Anadia,altaserrania,Especie,"Harris & Ayala, 1987",
