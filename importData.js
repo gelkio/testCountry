@@ -72,7 +72,7 @@ var lineReader = require('readline').createInterface({
   input: require('fs').createReadStream('taxon.csv')
 });
 
-var skip = false;
+var skip = true; //skip first line
 var species = [];
 lineReader.on('line', function (line) {
   if(!skip){ //skip first line

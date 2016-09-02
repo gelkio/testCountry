@@ -1,0 +1,21 @@
+{
+  "name": "testByCountry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testByCountry.html",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server ./ -a 0.0.0.0 -p 8080",
+    "start-backend": "node startServer.js",
+    "import-data": "node importData.js"
+  },
+  "keywords": [],
+  "author": "Gelver Vargas",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  },
+  "dependencies": {
+    "nano": "^6.2.0"
+  }
+}
